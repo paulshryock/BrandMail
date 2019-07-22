@@ -1,0 +1,20 @@
+{
+  "name": "brandmail",
+  "version": "0.1.0",
+  "description": "BrandMail empowers you to send HTML emails at scale, from any branded email address, without writing code.",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulshryock/BrandMail.git"
+  },
+  "author": {
+    "name": "Paul Shryock",
+    "email": "paul@pshry.com"
+  },
+  "license": "gpl-3.0",
+  "bugs": {
+    "url": "https://github.com/paulshryock/BrandMail/issues"
+  },
+  "homepage": "https://github.com/paulshryock/BrandMail#readme"
+}
