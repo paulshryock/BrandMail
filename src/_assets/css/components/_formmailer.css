@@ -1,0 +1,57 @@
+.form_mailer {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 48rem;
+
+  .button {
+    margin: 1rem;
+  }
+}
+
+.form__section {
+  background: $white;
+  border-radius: 0.25em;
+  flex: 1 0 45%;
+  margin: 1rem;
+}
+
+.form__section_wide {
+  flex: 0 1 100%;
+}
+
+.fieldset__legend {
+  background: $white;
+  border-radius: 0.25em;
+  padding: 0.125em 0.5em;
+}
+
+.fieldset__section:first-of-type {
+  margin-top: 0;
+}
+
+.fieldset__section:last-of-type {
+  margin-bottom: 0;
+}
+
+.fieldset__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fieldset__container > div {
+  flex: 0 1 33%;
+}
+
+.button__container {
+  text-align: center;
+}
+
+@media screen and (min-width: 37.5rem) { /* Tablet Portrait / 37.5rem / 600px */
+
+  .form_mailer div + div {
+    margin: 0;
+  }
+
+}

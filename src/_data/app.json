@@ -1,0 +1,26 @@
+{
+  "title": "{{ pkg.title }}",
+  "description": "{{ pkg.description }}",
+  "url": "{{ pkg.homepage }}",
+  "version": "{{ pkg.version }}",
+
+  "feed": {
+    "subtitle": "{{ pkg.title }}",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "url": "{{ pkg.homepage }}/feed/feed.xml",
+    "id": "{{ pkg.url }}/"
+  },
+
+  "author": {
+    "name": "{{ pkg.author.name }}",
+    "email": "{{ pkg.author.email }}"
+  },
+
+  "navigation": false,
+
+  "content_type": "app",
+  "layout": "app",
+
+  "copyright": "&copy {{ 'now' | date: '%Y' }} {{ pkg.company }}. All rights reserved."
+}

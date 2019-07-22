@@ -1,0 +1,10 @@
+[type="radio"] + label {
+	cursor: pointer;
+  display: inline;
+  padding-left: 0.25em;
+}
+
+label + [type="radio"] {
+  margin-left: 1em;
+  margin-top: 0;
+}

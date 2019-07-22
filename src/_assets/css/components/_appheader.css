@@ -1,0 +1,9 @@
+.app-header {
+  background: $text-dark;
+  color: $white;
+  text-align: center;
+}
+
+.app-title {
+  color: $white;
+}

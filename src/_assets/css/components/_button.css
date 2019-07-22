@@ -1,0 +1,69 @@
+.button {
+	background: $button;
+	border-radius: 0.25em;
+	box-shadow: 0 0.125rem 0 0 hsl( 157, 25%, 90% );
+	color: hsl( 0, 0%, 100% );
+	display: inline-block;
+  line-height: 1.4;
+	padding: 0.25em 0.5em;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: box-shadow 200ms ease;
+}
+
+.button:link,
+.button:visited {
+	box-shadow: 0 0.125rem 0 0 hsl( 157, 25%, 90% );
+	color: hsl( 0, 0%, 100% );
+}
+
+.button:hover,
+.button:focus {
+	background: $button-hover;
+	box-shadow: 0 0.125rem 0 0 hsl( 157, 25%, 80% );
+	color: hsl( 0, 0%, 100% );
+}
+
+.button:active {
+	background: $button-active;
+	box-shadow: none;
+	color: hsl( 0, 0%, 100% );
+}
+
+.button[disabled] {
+	background: $button-disabled;
+	box-shadow: none;
+	color: hsl( 0, 0%, 100% );
+	cursor: auto;
+}
+
+.button_ghost {
+	background: transparent;
+	border: 0.125rem solid;
+	color: $button;
+	padding: 0.125em 0.375em;
+}
+
+.button_ghost:link,
+.button_ghost:visited {
+	background: transparent;
+	border: 0.125rem solid;
+	color: $button;
+}
+
+.button_ghost:hover,
+.button_ghost:focus {
+	background: transparent;
+	color: $button-hover;
+}
+
+.button_ghost:active {
+	background: transparent;
+	color: $button-active;
+}
+
+.button_ghost[disabled] {
+	background: transparent;
+	color: $button-disabled;
+	cursor: auto;
+}

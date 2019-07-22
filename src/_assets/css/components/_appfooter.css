@@ -1,0 +1,5 @@
+.app-footer {
+  background: $text-dark;
+  color: $white;
+  text-align: center;
+}
