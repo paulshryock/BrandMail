@@ -50,7 +50,7 @@ This app is for:
 1. Run the command below to clone this repository, enter the directory, and install dependencies.
 
   ```bash
-  git clone https://github.com/paulshryock/InfoSec-Password-Violation.git && cd Infosec-Password-Violation && npm install
+  git clone https://github.com/paulshryock/BrandMail.git && cd Infosec-Password-Violation && npm install
   ```
 
 2. Create a `.env` file, and set the `SENDGRID_API_KEY`:
@@ -66,4 +66,4 @@ This app is for:
 
 ## Contributing
 
-If you'd like to contribute, please read the [Code of Conduct](https://github.com/paulshryock/InfoSec-Password-Violation/blob/master/CODE_OF_CONDUCT.md) and [Contributing instructions](https://github.com/paulshryock/InfoSec-Password-Violation/blob/master/CONTRIBUTING.md), then fork the repository and use a feature branch. Pull requests are welcome.
+If you'd like to contribute, please read the [Code of Conduct](https://github.com/paulshryock/BrandMail/blob/master/CODE_OF_CONDUCT.md) and [Contributing instructions](https://github.com/paulshryock/BrandMail/blob/master/CONTRIBUTING.md), then fork the repository and use a feature branch. Pull requests are welcome.
