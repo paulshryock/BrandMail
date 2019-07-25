@@ -4,16 +4,29 @@
 
 BrandMail empowers you to send HTML emails at scale, from any branded email address, without writing code.
 
-[Download Latest Release](https://github.com/paulshryock/BrandMail/releases/latest)
+**This app is currently in development**
 
-This app is for:
+<!--[Download Latest Release](https://github.com/paulshryock/BrandMail/releases/latest)-->
+
+## BrandMail is for:
 
 - Brand Managers
 - Brand Coordinators
 - Project Managers
 - Project Coordinators
 - Administrative Assistants
+- Executive Assistants
 - Designers
+- Clients
+
+## BrandMail fits in many contexts:
+
+- Internal Communications
+- External Communications
+- Brand Communications
+- Client Communcations
+- Marketing
+- Transactions
 
 ## Table of Contents
 
