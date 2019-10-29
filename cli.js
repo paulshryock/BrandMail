@@ -1,3 +1,5 @@
 #!/usr/bin/env node
 
-console.log('Hello world')
+const [,, ...args] = process.argv
+
+console.log(`Hello world ${args}`)
