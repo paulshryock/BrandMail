@@ -1,13 +1,13 @@
-# Project files
+# Dependencies
 node_modules/
 package-lock.json
+
+# Private
 .env
-src/css/
-src/fonts/
-src/img/
-src/js/
+
+# Temp files
 build/
 dist/
 
-# System files
+# OS files
 .DS_Store

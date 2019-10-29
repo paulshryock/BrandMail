@@ -4,11 +4,6 @@
 
 ## Screenshots
 
-## Changes include
-- [ ] Breaking change
-- [ ] Non-breaking change
-- [ ] Bugfix
-
 ## Checklist
 - [ ] I have tested this code
 - [ ] I have updated the Changelog

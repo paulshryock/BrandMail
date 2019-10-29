@@ -15,5 +15,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 -->
 
-## 0.1.0 - XXXX-XX-XX - XXXXXX
-- Add project repo files
+## 1.0.0 - XXXX-XX-XX - Initial release
+- Add data, assets, layouts, components
+- Develop email generator
