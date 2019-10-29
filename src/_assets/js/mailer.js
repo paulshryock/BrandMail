@@ -161,7 +161,7 @@ async function addSentMarkup () {
   const h3 = document.createElement('h3')
   const ul = document.createElement('ul')
   const h2Text = document.createTextNode('Success!')
-  const pText = document.createTextNode('The emails have sent, and you can close GIST Mailer.')
+  const pText = document.createTextNode('The emails have sent, and you can close BrandMail.')
   const refreshButtonText = document.createTextNode('Start Over')
   const closeButtonText = document.createTextNode('Close')
   const h3Text = document.createTextNode('Emails sent to:')

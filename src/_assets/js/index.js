@@ -21,7 +21,7 @@ index.init = function () {
   */
 index.verifyApiKey = function () {
   if (config.sendGrid.apiKey === null || undefined === config.sendGrid.apiKey || config.sendGrid.apiKey === '') {
-    window.alert('Error: Missing SendGrid API Key. GIST Mailer will now close.')
+    window.alert('Error: Missing SendGrid API Key. BrandMail will now close.')
     ipcRenderer.send('close-app', true)
   }
 }

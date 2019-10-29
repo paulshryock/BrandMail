@@ -13,7 +13,7 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     width: 1024,
     height: 1124,
-    title: 'GIST Mailer',
+    title: 'BrandMail',
     webPreferences: {
       nodeIntegration: true
     },
