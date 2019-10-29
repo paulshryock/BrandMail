@@ -1,5 +1,3 @@
-'use strict'
-
 const nav = {}
 
 nav.items = [
