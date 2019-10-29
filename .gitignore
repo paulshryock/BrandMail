@@ -3,11 +3,13 @@ node_modules/
 package-lock.json
 
 # Private
+_logs/
 .env
 
 # Temp files
 build/
 dist/
+temp/
 
 # OS files
 .DS_Store
