@@ -1,5 +1,5 @@
 const path = require('path')
-require('dotenv').config({ path: path.join(__dirname, './../../../.env') })
+const config = require('config')
 
 /**
   * The main config object
@@ -10,7 +10,7 @@ let config = {
     limit: 500,
     interval: { seconds: 20 },
 
-    apiKey: process.env.SENDGRID_API_KEY
+    apiKey: config.get('sendgrid.api.key')
   },
 
   setTesting: function (bool) {

@@ -1,0 +1,13 @@
+{
+  "site": {
+    "path": "BRANDMAIL_SITE_PATH"
+  },
+  "images": {
+    "path": "BRANDMAIL_IMAGES_PATH"
+  },
+  "sendgrid": {
+    "api": {
+      "key": "BRANDMAIL_SENDGRID_API_KEY"
+    }
+  }
+}

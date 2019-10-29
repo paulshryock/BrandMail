@@ -1,0 +1,8 @@
+{
+  "site": {
+    "path": "http://localhost:8080"
+  },
+  "images": {
+    "path": "/img"
+  }
+}
